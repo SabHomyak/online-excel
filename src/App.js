@@ -1,17 +1,18 @@
-
 import classes from './App.module.scss';
 import React from "react";
+import Excel from "./components/Excel/ExcelContainer";
+import {BrowserRouter,Switch,Route} from "react-router-dom";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
-  return (
-    <div className={classes.items}>
-      <div className={classes.item}>1</div>
-      <div className={classes.item}>2</div>
-      <div className={classes.item}>3</div>
-      <div className={classes.item}>4</div>
-      <div className={classes.item}>5</div>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Route path={'/'} exact={true}><Excel/></Route>
+                <Route path={'/dashboard'} ><Dashboard/></Route>
+            </Switch>
+        </BrowserRouter>
+    );
 }
 
 export default App;

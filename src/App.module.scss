@@ -1,10 +1,13 @@
-.items{
-  background: silver;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~normalize-css";
 
-  .item{
-    background: red;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
 }
