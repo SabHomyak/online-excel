@@ -25,11 +25,11 @@ const Dashboard = (props) => {
                     </li>
                     <li className={classes.record}>
                         <a href="#">Таблица номер 1</a>
-                        <strong>12.06.2020</strong>
+                        <strong>12.06.2022</strong>
                     </li>
                     <li className={classes.record}>
                         <a href="#">Таблица номер 1</a>
-                        <strong>12.06.2020</strong>
+                        <strong>12.06.2021</strong>
                     </li>
                 </ul>
             </div>
